@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Educación</title>
+</head>
+<body>
+
+	<img src="img/mi_logo.svg" width="200">
+	<h1>Resumen Curricular</h1>
+	<h2>Nombre: Genaro John Vigil Rojas</h2>
+	<h2>Lugar de nacimiento: Lima - Perú</h2>
+    <h3>Fecha de nacimiento: 10 de Agosto de 1987</h3>
+
+  <div id="menu">
+  	<a href="index.html">Incio</a>
+		<a href="educacion.html">Educación</a>
+  	<a href="experiencia.html">Experiencia</a>
+  </div>
+
+	<h2>Educacion</h2>
+
+	<table class="table table-bordered" border="1" cellspacing="0" cellpadding="0">
+    <thead>
+      <tr>
+        <th>Año</th>
+        <th>Institucion</th>
+        <th>Lugar</th>
+        <th>¿Culmino?</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2017</td>
+        <td>Universida Cesar Vallejo</td>
+        <td>Ate</td>
+        <td>Si</td>
+
+      </tr>
+      <tr>
+				<td>2012</td>
+        <td>I.S.T.P Norbert Wiener</td>
+        <td>Lima</td>
+        <td>Si</td>
+
+      </tr>
+      <tr>
+        <td>2011</td>
+        <td>I.S Computronic Milenium</td>
+        <td>Chosica</td>
+        <td>Si</td>
+
+      </tr>
+    </tbody>
+  </table>
+
+<div id="form">
+	<h2>Agregar estudios</h2>
+	<label for="year">Año</label>
+	<select id="year">
+		<option value="2000">2011</option>
+		<option value="2001">2012</option>
+		<option value="2002">2013</option>
+		<option value="2003">2014</option>
+		<option value="2004">2015</option>
+		<option value="2004">2016</option>
+		<option value="2004">2017</option>
+		<option value="2004">2018</option>
+	</select>
+
+
+	<br>
+	<label for="institucion">Institucion</label>
+	<input type="text" name="institucion" id="institucion">
+	<br>
+	<label for="lugar">Lugar</label>
+	<input type="text" name="lugar" id="lugar">
+	<br>
+	<form id="culmino">Culmino</label>
+		<input type="radio" name="si" id="si" value="si">Si
+		<input type="radio" name="no" id="no" value="no">No
+
+	</form>
+	<br>
+	<button id="enviar">Enviar</button>
+</div>
+
+<div id="pie_pagina">
+	<p>Correo electronico: gvigilr@gmail.com </p>
+	<p>Telefono:(+51)987418495</p>
+	<p>Direccion: Jr. San José Nro 170 - Chosica, Lima - Perú</p>
+</div>
+</body>
+</html>
